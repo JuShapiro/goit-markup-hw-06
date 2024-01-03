@@ -59,8 +59,8 @@
             <use href="./images/icons.svg#icon-close-sign"></use>
           </svg>
         </button>
-        <div class="div-mob-menu">
-          <nav class="mob-menu">
+     
+        
             <ul class="mob-menu-list">
               <li>
                 <a class="link-studio" href="./index.html">Studio</a>
@@ -73,8 +73,8 @@
               </li>
             </ul>
           
-        </div>
-        <div class="contact-menu">
+      
+      
           
             <ul class="mob-list">
               <li>
@@ -120,7 +120,7 @@
             </li>
           </ul>
         </div>
-      </div>
+    
     </header>
 
     <main>
@@ -129,7 +129,7 @@
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
 
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="hero-button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -757,9 +757,9 @@
     </div>
 </footer> 
     <!-- Modal window -->
-    <!-- <div class="backdrop">
+  <div class="backdrop " data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" aria-label="modal close button">
+        <button class="modal-btn" type="button" data-modal-close >
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-sign"></use>
           </svg>
@@ -833,15 +833,16 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="checkbox-privacy"> Privacy Policy</a>
+              <p class="check-text-wrap">I accept the terms and conditions of the
+              <a href="" class="checkbox-privacy"> Privacy Policy</a></p>
             </label>
           </div>
           <button class="send-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div> 
 
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
